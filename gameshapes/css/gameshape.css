@@ -1,0 +1,37 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.main{
+ background-color: lightgrey;
+ height: 100vh;
+ width: 100%;
+ display: flex;
+}
+
+.shape {
+ margin: 20px;
+ height: 200px;
+ width: 200px;
+ border: 2px solid black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#square:hover{
+ background-color: black;
+}
+#daimond{
+ rotate: 45deg;
+}
+#daimond:hover{
+ background-color: red;
+}
+#circle{
+ border-radius: 50%;
+}
+#circle:hover{
+ background-color: blue;
+}
